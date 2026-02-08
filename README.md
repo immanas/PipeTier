@@ -78,3 +78,7 @@ Docker Volume (Persistent Storage)
 - 🔍 Postman — API testing
 - ☁️ AWS EC2 (t3.micro) — Cloud deployment environment
 
+---
+
+## 🔌 API Endpoints
+🟢 Health Check
