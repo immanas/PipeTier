@@ -112,6 +112,17 @@ Security choices prioritize **least exposure over convenience**.
 
 ---
 
+## 🚀 Scalability & Performance Thinking
+
+- 📈 Stateless Flask backend allows horizontal scaling  
+- 🧩 Backend and database can scale independently  
+- 🐳 Docker Compose structure is migration-ready for ECS / Kubernetes  
+- ⚡ Connection reuse and lightweight containers reduce overhead  
+- 🌍 Architecture supports future load balancers without redesign  
+
+Designed with **growth in mind**, even at MVP stage.
+
+---
 
 ## ⚙️ Tech Stack
 
