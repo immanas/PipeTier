@@ -38,7 +38,6 @@ It answers:
 - A managed cloud service
 - A fake demo or screenshot-only project
 
----
 
 ## 🧩 Real Problems PipeTier Solves
 
@@ -53,7 +52,6 @@ It answers:
 | Unverified APIs | Endpoints are not tested end-to-end | Tested with real POST and GET requests using Postman |
 | No persistent system behavior | Data disappears between runs | Demonstrates stateful backend with persistent storage |
 
-----
 
 ## 🏗️ System Architecture
 ![System Architecture](architecture.png)
@@ -85,7 +83,6 @@ It answers:
 
 This flow ensures **clean separation of concerns** and predictable behavior.
 
----
 
 ## ⚠️ Failure Scenarios & Handling
 
@@ -97,7 +94,7 @@ This flow ensures **clean separation of concerns** and predictable behavior.
 
 Failures are **expected, handled, and observable** — not ignored.
 
----
+
 
 
 ## 🔐 Security Considerations
@@ -110,7 +107,7 @@ Failures are **expected, handled, and observable** — not ignored.
 
 Security choices prioritize **least exposure over convenience**.
 
----
+
 
 ## 🚀 Scalability & Performance Thinking
 
@@ -122,7 +119,7 @@ Security choices prioritize **least exposure over convenience**.
 
 Designed with **growth in mind**, even at MVP stage.
 
----
+
 
 ## ⚙️ Tech Stack
 
@@ -133,7 +130,7 @@ Designed with **growth in mind**, even at MVP stage.
 - 🔍 Postman — API testing
 - ☁️ AWS EC2 (t3.micro) — Cloud deployment environment
 
----
+
 
 ## 🧪 Testing Strategy
 
@@ -144,9 +141,9 @@ Designed with **growth in mind**, even at MVP stage.
 
 Focus was on **confidence in behavior**, not just test coverage numbers.
 
----
 
----
+
+
 
 ## 🧪 Proof of Working
 
@@ -170,7 +167,7 @@ All real execution proof is included without modification.
 ### 4️⃣ GET Request Returning Stored Data
 ![GET Request](result/four.jpeg)
 
----
+
 
 Contains screenshots showing:
 
@@ -183,7 +180,7 @@ Contains screenshots showing:
 
 These are real execution screenshots, not mockups.
 
----
+
 
 ## ☁️ AWS EC2 Hosting 
 
@@ -196,7 +193,7 @@ PipeTier was verified on **AWS EC2 (t3.micro)** to demonstrate:
 
 This confirms hands-on cloud fundamentals, not theory.
 
----
+
 
 ## ⚖️ Trade-offs & Decisions
 
@@ -207,7 +204,7 @@ This confirms hands-on cloud fundamentals, not theory.
 
 All choices were intentional and documented.
 
----
+
 
 
 ## 🚫 Explicit Limitations
@@ -219,7 +216,7 @@ All choices were intentional and documented.
 
 These were **conscious scope decisions**, not oversights.
 
----
+
 
 ## 🔮 Future Improvements
 
@@ -229,7 +226,7 @@ These were **conscious scope decisions**, not oversights.
 - Managed database (RDS)
 - Basic authentication
 
----
+
 
 ## 👨‍💻 What This Project Demonstrates About Me
 
@@ -241,7 +238,7 @@ These were **conscious scope decisions**, not oversights.
 
 This project reflects how I approach **real-world backend and DevOps problems**.
 
----
+
 
 ## 🏁 Final Note
 
