@@ -4,10 +4,8 @@ PipeTier is a **Dockerized Flask backend** connected to **MySQL**, built to demo
 
 This project focuses on **working systems**, not slides or mock demos.
 
----
 
 ## 🧠 One-Line Truth
-
 **A real backend API that runs in Docker, stores data in MySQL, and is verified locally and on AWS EC2.**
 
 ---
@@ -82,3 +80,67 @@ Docker Volume (Persistent Storage)
 
 ## 🔌 API Endpoints
 🟢 Health Check
+
+---
+
+## 🧪 Proof of Working
+
+All real execution proof is included without modification.
+
+### 📂 Folder:
+`results/`
+
+Contains screenshots showing:
+
+- Docker containers running
+- Flask backend live on port 5000
+- POST request inserting data
+- GET request returning stored data
+- MySQL persistence
+- AWS EC2 instance running (Mumbai region)
+
+These are real execution screenshots, not mockups.
+
+---
+
+## ☁️ AWS EC2 Hosting 
+
+PipeTier was verified on **AWS EC2 (t3.micro)** to demonstrate:
+
+- Instance creation
+- Public IP & DNS usage
+- SSH connectivity
+- Backend readiness for hosting
+
+This confirms hands-on cloud fundamentals, not theory.
+
+---
+
+## ⚖️ Trade-offs & Decisions
+
+- Used Flask dev server instead of Gunicorn (simplicity)
+- Used Dockerized MySQL instead of RDS (learning focus)
+- No authentication layer (out of scope)
+- No frontend (backend-only proof)
+
+All choices were intentional and documented.
+
+---
+
+## 🔮 Future Improvements
+
+- Environment-based secret management
+- Production WSGI server (Gunicorn)
+- CI/CD pipeline
+- Managed database (RDS)
+- Basic authentication
+
+---
+
+## 🏁 Final Note
+
+PipeTier is not a tutorial copy.  
+It is a working backend system, tested locally and verified on AWS, with clear proof.
+
+**If you can run it, test it, and explain it — you own it. 💪**
+
