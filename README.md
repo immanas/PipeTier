@@ -247,3 +247,13 @@ It is a working backend system, tested locally and verified on AWS, with clear p
 
 **If you can run it, test it, and explain it — you own it. 💪**
 
+### 🛠️ How to Contribute
+
+1. 🍴 Fork the repo
+2. 📦 Create a new feature branch: `git checkout -b feature-name`
+3. ✅ Make your changes and test them
+4. 📬 Submit a pull request describing your enhancement
+
+ 🤝 Let's Build This Together!
+Made with 💚 by **Manas Gantait**  
+
