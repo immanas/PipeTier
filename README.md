@@ -56,7 +56,7 @@ It answers:
 ----
 
 ## 🏗️ System Architecture
-![System Architecture](architecture.jpeg)
+![System Architecture](architecture.png)
 
 
 ---
