@@ -231,6 +231,18 @@ These were **conscious scope decisions**, not oversights.
 
 ---
 
+## 👨‍💻 What This Project Demonstrates About Me
+
+- 🧠 I think in **systems**, not just files  
+- 🐳 I understand **containerized application design**  
+- 🧱 I design with **failure awareness**, not happy paths  
+- 🔍 I value **clarity, separation, and observability**  
+- 📐 I build projects that resemble **real production workflows**, not demos  
+
+This project reflects how I approach **real-world backend and DevOps problems**.
+
+---
+
 ## 🏁 Final Note
 
 PipeTier is not a tutorial copy.  
