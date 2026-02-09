@@ -72,6 +72,46 @@ It answers:
 
 ---
 
+## 🔁 Request Lifecycle (How a Request Flows)
+
+1️⃣ A client (Postman or browser) sends an HTTP request to the Flask API  
+2️⃣ Docker maps the request from host port `5000` to the backend container  
+3️⃣ Flask validates and parses the incoming JSON payload  
+4️⃣ The backend connects to MySQL using Docker’s internal service name  
+5️⃣ Data is written to or read from the MySQL database  
+6️⃣ MySQL persists data using a Docker volume  
+7️⃣ Flask formats the response and sends it back to the client  
+8️⃣ Client receives a clear JSON response with status codes  
+
+This flow ensures **clean separation of concerns** and predictable behavior.
+
+---
+
+## ⚠️ Failure Scenarios & Handling
+
+- 🛑 **MySQL container not ready** → Backend retries connection before failing  
+- 🔌 **Database container down** → API returns controlled error, not crash  
+- 📦 **Docker container restart** → Data remains safe due to volume usage  
+- ❌ **Invalid request payload** → API responds with proper validation error  
+- 🔁 **Service restart** → Docker Compose restores dependencies automatically  
+
+Failures are **expected, handled, and observable** — not ignored.
+
+---
+
+
+## 🔐 Security Considerations
+
+- 🔑 Database credentials are isolated inside containers, not hardcoded in clients  
+- 🌐 MySQL is **not exposed** to the host or internet  
+- 📦 Internal Docker networking prevents accidental external access  
+- 🧱 Clear separation between API layer and database layer  
+- ⚠️ No unnecessary open ports (only backend is exposed)  
+
+Security choices prioritize **least exposure over convenience**.
+
+---
+
 
 ## ⚙️ Tech Stack
 
