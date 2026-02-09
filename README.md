@@ -6,9 +6,8 @@ This project focuses on **working systems**, not slides or mock demos.
 
 
 ## 🧠 One-Line Truth
-**A real backend API that runs in Docker, stores data in MySQL, and is verified locally and on AWS EC2.**
+A real backend API that runs in Docker, stores data in MySQL, and is verified locally and on AWS EC2.
 
----
 
 ## ❓ Why This Project Exists
 
@@ -40,6 +39,21 @@ It answers:
 - A fake demo or screenshot-only project
 
 ---
+
+## 🧩 Real Problems PipeTier Solves
+
+| Real-World Problem | What Usually Happens | How PipeTier Solves It |
+|--------------------|----------------------|-------------------------|
+| Backend runs only on localhost | Apps work only on developer machines | Runs inside Docker containers, making it portable and reproducible |
+| Database data gets lost on restart | Containers are recreated without persistent storage | Uses Docker volumes to ensure MySQL data persists |
+| Hard-to-setup multi-service apps | Manual setup of backend and database leads to errors | Docker Compose brings up the full stack with one command |
+| Incorrect container networking | Developers use `localhost` instead of service names | Uses service-name based networking (`mysql`) like real deployments |
+| No proof of actual execution | Projects show only code or screenshots without verification | Includes real test results and EC2 deployment proof |
+| Lack of cloud deployment experience | Many projects never leave the local machine | Deployed and tested on AWS EC2 with public access |
+| Unverified APIs | Endpoints are not tested end-to-end | Tested with real POST and GET requests using Postman |
+| No persistent system behavior | Data disappears between runs | Demonstrates stateful backend with persistent storage |
+
+----
 
 ## 🏗️ System Architecture
 
