@@ -56,16 +56,8 @@ It answers:
 ----
 
 ## 🏗️ System Architecture
+![System Architecture](architecture.jpeg)
 
-```text
-Client (Postman / Browser)
-        ↓
-Flask API (Docker container)
-        ↓
-MySQL Database (Docker container)
-        ↓
-Docker Volume (Persistent Storage)
-```
 
 ---
 
