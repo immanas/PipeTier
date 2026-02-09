@@ -93,7 +93,21 @@ Docker Volume (Persistent Storage)
 ---
 
 ## 🔌 API Endpoints
-🟢 Health Check
+---
+
+## 🧪 Proof of Working
+
+### 1️⃣ Docker Containers Running
+![Docker Containers](result/one.jpeg)
+
+### 2️⃣ Flask Backend Running on Port 5000
+![Flask Running](result/two.jpeg)
+
+### 3️⃣ POST Request Inserting Data
+![POST Request](result/three.jpeg)
+
+### 4️⃣ GET Request Returning Stored Data
+![GET Request](result/four.jpeg)
 
 ---
 
