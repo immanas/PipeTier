@@ -135,6 +135,19 @@ Designed with **growth in mind**, even at MVP stage.
 
 ---
 
+## 🧪 Testing Strategy
+
+- 🔍 API tested end-to-end using Postman (real HTTP calls)  
+- 🧠 Manual testing validates real behavior, not mocks  
+- 🐳 Docker logs used to observe runtime behavior  
+- 🔄 Repeated insert + read cycles verify DB persistence  
+
+Focus was on **confidence in behavior**, not just test coverage numbers.
+
+---
+
+---
+
 ## 🧪 Proof of Working
 
 All real execution proof is included without modification.
@@ -193,6 +206,18 @@ This confirms hands-on cloud fundamentals, not theory.
 - No frontend (backend-only proof)
 
 All choices were intentional and documented.
+
+---
+
+
+## 🚫 Explicit Limitations
+
+- ❗ No authentication or authorization implemented  
+- ❗ Not production-hardened (dev Flask server)  
+- ❗ No automated CI/CD pipeline yet  
+- ❗ No monitoring or alerting stack  
+
+These were **conscious scope decisions**, not oversights.
 
 ---
 
