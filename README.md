@@ -150,9 +150,12 @@ These are real execution screenshots, not mockups.
 - No load balancing or auto-scaling  
 - Single database instance (no replication)  
 - Limited fault tolerance at large scale  
-- Not production-grade for high traffic systems  
+- Not production-grade for high traffic systems
 
 This project focuses on demonstrating real backend execution, containerization, and persistence — not distributed system complexity.
+
+## 🙌 Contributions Welcome!
+GrowEasy is an open-source initiative, and we welcome contributions from developers, data scientists, cloud engineers, and e-commerce enthusiasts!
 
 ## 🔮 Future Improvements :
 
@@ -162,7 +165,6 @@ This project focuses on demonstrating real backend execution, containerization, 
 - Managed database (RDS)
 - Basic authentication
 
- 
 
 This project reflects how I approach **real-world backend and DevOps problems**.
 **If you can run it, test it, and explain it — you own it. 💪**
