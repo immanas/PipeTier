@@ -32,6 +32,7 @@ It answers:
 
 ## 📁 Project Structure :
 
+```
 PipeTier/
 │
 ├── app/  # Backend application (Flask API + container setup)
@@ -48,7 +49,7 @@ PipeTier/
 ├── architecture.png       # System architecture diagram
 ├── README.md              # Project documentation
 └── LICENSE                # MIT license
-
+```
 ## 🏗️ System Architecture :
 ![System Architecture](architecture.png)
 
