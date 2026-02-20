@@ -30,6 +30,24 @@ It answers:
 | Unverified APIs | Endpoints are not tested end-to-end | Tested with real POST and GET requests using Postman |
 | No persistent system behavior | Data disappears between runs | Demonstrates stateful backend with persistent storage |
 
+## 📁 Project Structure :
+
+PipeTier/
+│
+├── app/  # Backend application (Flask API + container setup)
+│   ├── app.py             # Main Flask API (routes, logic, endpoints)
+│   ├── requirements.txt   # Python dependencies for the backend
+│   └── Dockerfile         # Container definition for Flask app
+│
+├── result/  # Output & verification artifacts
+│   ├── one.jpeg           # API response proof (test result)
+│   ├── four.jpeg          # Additional verification screenshot
+│   └── five.jpeg          # Deployment / execution proof
+│
+├── docker-compose.yml     # Multi-container setup (Flask + MySQL)
+├── architecture.png       # System architecture diagram
+├── README.md              # Project documentation
+└── LICENSE                # MIT license
 
 ## 🏗️ System Architecture :
 ![System Architecture](architecture.png)
