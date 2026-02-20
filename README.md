@@ -99,6 +99,14 @@ Client → Flask API → Business Logic → MySQL → Response
 - 🔍 Postman — API testing
 - ☁️ AWS EC2 (t3.micro) — Cloud deployment environment
 
+## ⚡ Quickstart
+
+- Clone the repository  
+- Navigate to project folder  
+- Run: `docker-compose up --build`  
+- Wait for containers to start  
+- Access API at: `http://localhost:5000`
+
 ## 🛡️ Resilience & Security :
 
 ***Failure Scenarios***
